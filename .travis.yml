@@ -1,0 +1,6 @@
+sudo: required
+services: docker
+script:
+  - docker build -t iSerter/php-fpm .
+after_script:
+  - docker images

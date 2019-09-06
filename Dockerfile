@@ -47,7 +47,7 @@ RUN apt-get update && apt-get upgrade -y \
     exif \
     gettext \
     iconv \
-    mcrypt \
+#    mcrypt \
     mbstring \
     mysqli \
     opcache \
@@ -61,7 +61,6 @@ RUN apt-get update && apt-get upgrade -y \
     soap \
     sockets \
     tokenizer \
-    xml \
     xmlrpc \
     xsl \
     && docker-php-ext-configure zip --with-libzip \

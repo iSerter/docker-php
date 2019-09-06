@@ -1,6 +1,6 @@
 sudo: required
 services: docker
 script:
-  - docker build -t iSerter/php-fpm .
+  - docker build -t iserter/php-fpm .
 after_script:
   - docker images
